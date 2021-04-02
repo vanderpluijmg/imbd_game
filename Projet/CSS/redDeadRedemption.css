@@ -1,0 +1,56 @@
+.cover {
+    display: flex;
+  }
+  
+.image img {
+    max-width: 50%;
+  }
+  
+.image {
+    padding-top: 30px;
+    padding-left: 30px;
+    flex-basis: 100%
+    
+  }
+  
+.text {
+    font-size: 20px;
+    padding-left: -100px;
+  }
+  #slide1 {
+    background-image: url('../src/images/redDead5.png');
+  }
+  
+  #slide2 {
+    background-image: url('../src/images/redDead1.png');
+  }
+  
+  #slide3 {
+    background-image: url('../src/images/reddead2.jpg');
+  }
+  
+  #slide4 {
+    background-image: url('../src/images/reddead3.jpg');
+  }
+  
+  #slide5 {
+    background-image: url('../src/images/reddead4.jpg');
+  }
+
+  .slide-image {
+
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+  }
+  
+
+  #photoGallery {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+  }
