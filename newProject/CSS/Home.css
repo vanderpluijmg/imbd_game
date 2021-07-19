@@ -1,0 +1,102 @@
+
+.populargames {
+    position: relative;
+    top:50px;
+    left:100px;
+    display: block;
+    width:1345px;
+
+}
+body {overflow-x:hidden;}
+
+.slick-prev {
+    margin-left: -10px;
+}
+.slick-next {
+    right: 140px;
+}
+.slick-prev:before, .slick-next:before {
+    color: black!important;
+}
+
+#RecRev {
+    position: relative;
+    top: 70px;
+    left:103px;
+}
+
+#Pop {
+    position: relative;
+    left: 103px;
+    top:20px;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    text-decoration: none;
+
+}
+
+.nextPhotos{
+    border: 3px solid black;
+    height: 200px;
+    width: 400px;
+}
+.primePhotos{
+    border: 3px solid black;
+    height: 400px;
+    width: 810px;
+}
+.photoRec{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.recentlyReview {
+    position : relative;
+    left:103px;
+    top:100px;
+}
+.topThree{
+    display: flex;
+    flex-direction: row;
+}
+.bottomPics{
+    display :flex;
+    flex-direction: row;
+}
+
+.title:after{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: orange;
+    position: absolute;
+    left: 2%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+.caption {
+    height: 50px;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    width : 264px;
+    background-color : white;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+.caption p {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 50px;
+}
+
+.caption p:nth-child(2){
+    position: relative;
+    top: 10px;
+}
+.colorWrapper {
+    height: 500px;
+    background-color:#FAF9F6;
+}
