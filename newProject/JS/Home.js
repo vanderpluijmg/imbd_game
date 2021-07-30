@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $(".populargames").not('.slick-initialized').slick({
         //centerMode:true,

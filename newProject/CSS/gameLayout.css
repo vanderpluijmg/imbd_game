@@ -3,65 +3,114 @@
     background-attachment:fixed ;
     background-size: cover;
     background-position: bottom 90px left 0px;
-    height: 400px;
+    height: 500px;
 }
 
 .cover h1{
     position: relative;
-    left: 400px;
+    left: 500px;
     bottom : 100px;
 }
 
 .cover h2{
     position: relative;
-    left: 400px;
+    left: 500px;
     bottom : 100px;
 }
 
 .cover h3{
     position: relative;
-    left: 400px;
+    left: 500px;
     bottom : 100px;
 }
 
 .cover img{
     position: relative;
     top:200px;
-    left: 100px;
+    left: 200px;
 }
+
 .title {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size:20px;
     text-decoration: none;
 }
+
 .secondaryTitle {
 
 }
+
 body {
     overflow-x:hidden;
     background-color:#FAF9F6;
 }
-.list {
-    list-style: none;
+#nav{
+
     position: relative;
-    left: 400px;
+    bottom : 25px;
+    left : 600px;
     display: flex;
     flex-direction: row;
 }
-.element {
-    position: center;
-    border: 1px solid black;
-    padding: 10px 75px 10px 75px;
-    color:black;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size:20px;
+#nav > * {
+    list-style: none;
 }
-element:active {
-    color: red;
+
+.titleNav{
+    color : grey;
+    margin-right:150px;
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.dropdownContent{
+    color: black;
+    list-style: none;
+}
+
+.content{
+    position: relative;
+    top :50px;
+    right: 50px;
+}
+
+.about{
+    color: black;
+    list-style: none;
+    position :relative;
+    top : 20px;
+    right : 50px;
+}
+#rating {
+    position : relative;
+    bottom: 130px;
+    left: 1250px;
+    height: 300px;
+    width : 400px;
+    border: 2px black solid;
+}
+
+#followGame {
+    position: relative;
+    top:70px;
+    left:200px;
+    width:260px;
+    height: 50px;
+    background-color: #9147ff;
+    border-radius: 4px;
+}
+#followGame:hover{
+    background-color: #8533ff;
+}
+
+.dropper{
+    position: relative;
+    top: 20px;
 }
 
 .mainContent{
+    background-color: #FAF9F6;
     height: 300px;
 }
