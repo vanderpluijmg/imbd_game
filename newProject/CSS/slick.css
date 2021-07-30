@@ -80,11 +80,9 @@
     float: left;
     height: 100%;
     min-height: 1px;
-    padding-left: 5px;
+    padding-left: 25px;
 }
-.slick-slide:hover {
-    background-color: #9147ff;
-}
+
 [dir='rtl'] .slick-slide
 {
     float: right;
@@ -92,6 +90,8 @@
 .slick-slide img
 {
     display: block;
+    width: 181px;
+    height: 252px;
 }
 .slick-slide.slick-loading img
 {

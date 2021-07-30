@@ -2,9 +2,9 @@
 .populargames {
     position: relative;
     top:50px;
-    left:100px;
+    left:140px;
     display: block;
-    width:1345px;
+    width:1235px;
 
 }
 body {overflow-x:hidden;}
@@ -35,18 +35,15 @@ body {overflow-x:hidden;}
     font-weight: 500;
     font-size:20px;
     text-decoration: none;
-
 }
 
 .nextPhotos{
-    border: 3px solid black;
     height: 200px;
     width: 400px;
 }
 .primePhotos{
-    border: 3px solid black;
-    height: 400px;
-    width: 810px;
+    height: 415px;
+    width: 955px;
 }
 .photoRec{
     margin-top: 10px;
@@ -54,7 +51,7 @@ body {overflow-x:hidden;}
 }
 .recentlyReview {
     position : relative;
-    left:103px;
+    left:150px;
     top:100px;
 }
 .topThree{
@@ -76,27 +73,29 @@ body {overflow-x:hidden;}
     bottom: -10px;
     transform: translateX(-50%);
 }
+.game{
+    width : 50px;
+}
+
 .caption {
     height: 50px;
     border-bottom: 2px solid lightgray;
     border-right: 2px solid lightgray;
     border-left: 2px solid lightgray;
-    width : 264px;
+    width : 181px;
     background-color : white;
     display: flex;
-    flex-direction: row ;
+    flex-direction: column ;
     flex-wrap: wrap;
 }
 .caption p {
     font-family: "Montserrat", sans-serif;
-    padding-left: 50px;
 }
 
 .caption p:nth-child(2){
-    position: relative;
-    top: 10px;
+
 }
 .colorWrapper {
-    height: 500px;
+    height: 1000px;
     background-color:#FAF9F6;
 }

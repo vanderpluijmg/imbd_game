@@ -1,11 +1,12 @@
 
 $(document).ready(function(){
     $(".populargames").not('.slick-initialized').slick({
+        //centerMode:true,
         dots: false,
         arrows: true,
         infinite: true,
         speed: 300,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 2,
         variableWidth: true,
         autoplay : true,

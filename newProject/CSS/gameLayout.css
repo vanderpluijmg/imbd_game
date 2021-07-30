@@ -1,0 +1,67 @@
+.cover {
+    background: url("../images/mindhubMinecraft.png");
+    background-attachment:fixed ;
+    background-size: cover;
+    background-position: bottom 90px left 0px;
+    height: 400px;
+}
+
+.cover h1{
+    position: relative;
+    left: 400px;
+    bottom : 100px;
+}
+
+.cover h2{
+    position: relative;
+    left: 400px;
+    bottom : 100px;
+}
+
+.cover h3{
+    position: relative;
+    left: 400px;
+    bottom : 100px;
+}
+
+.cover img{
+    position: relative;
+    top:200px;
+    left: 100px;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    text-decoration: none;
+}
+.secondaryTitle {
+
+}
+body {
+    overflow-x:hidden;
+    background-color:#FAF9F6;
+}
+.list {
+    list-style: none;
+    position: relative;
+    left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.element {
+    position: center;
+    border: 1px solid black;
+    padding: 10px 75px 10px 75px;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:20px;
+}
+element:active {
+    color: red;
+}
+
+.mainContent{
+    height: 300px;
+}
