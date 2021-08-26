@@ -1,0 +1,74 @@
+/** Body and titles */
+body {
+    overflow-x:hidden;
+    background-color: whitesmoke;
+}
+.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    text-decoration: none;
+    position: relative;
+    left: 10vw;
+    top:20px;
+}
+.select{
+    position : relative;
+    left: 2vw;
+}
+
+.underC {
+    position :relative;
+    top:3vh;
+}
+.titleGallery{
+    position:  relative;
+    top : 4vh;
+}
+.title:after{
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: orange;
+    position: absolute;
+    left: 2%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+
+/** Courselle */
+.wrapperCarousel {
+    width: 75vw;
+    position: relative;
+    top:50px;
+    overflow: hidden;
+    left: 12.5vw;
+}
+.caption {
+    background-color: white;
+    display :flex;
+    border: 2px solid lightgray;
+    height: 2vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.textCaption{
+    font-family: 'Lato', sans-serif;
+}
+/** Photo gallery*/
+
+.galleryWrapper {
+    position: relative;
+    top:3vh;
+    left: 12.5vw;
+    height: 80vh;
+}
+.gallery{
+    position:relative;
+    left : 9vw;
+}
+.myrow > a> img {
+    margin-right: 0.8vw;
+    margin-bottom: 1vh;
+    width :18vw;
+}

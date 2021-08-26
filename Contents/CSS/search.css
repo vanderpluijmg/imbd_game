@@ -1,0 +1,17 @@
+#search {
+    width : 50vw;
+    height : 5vh;
+    /**background: url("../Images/340-3406114_watchdog-svg-search-icon-free.png");**/
+}
+.search {
+    margin-top: 10vh;
+}
+
+#res{
+    list-style: none;
+}
+#res > a>  img {
+    margin-top: 5vh;
+    margin-left: 3.5vw;
+    width: 20vw;
+}
