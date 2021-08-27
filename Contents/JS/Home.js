@@ -19,7 +19,6 @@ function filter (genre){
         "timeout": 0,
     };
     $.ajax(settings).done(function (response) {
-        console.log(JSON.parse(response))
         displayGallery(JSON.parse(response));
     });
 }
@@ -40,5 +39,30 @@ function displayGallery (response) {
          rowToDisplay=rowTwo
         }
         rowToDisplay.append('<a href="./index.php?action=getGame&id='+response[i].GAME_ID+'"><img src="'+response[i].GAME_COVER_URL+'"></a>');
+    }
+}
+
+var rowOneScreen = $("#rowOneScreen");
+var rowTwoScreen = $("#rowTwoScreen");
+
+function displaySC(){
+    var settings = {
+        "url": "./index.php?action=screenshots",
+        "timeout": 0,
+    };
+    $.ajax(settings).done(function (response) {
+        displayScreeshots(JSON.parse(response));
+    });
+}
+
+function displayScreeshots(response){
+    rowOneScreen.empty();
+    rowTwoScreen.empty();
+    var rowToDisplay=rowOneScreen;
+    for (var i = 0; i<6; i++){
+        if (i===3){
+            rowToDisplay=rowTwoScreen;
+        }
+        rowToDisplay.append('<a href="./index.php?action=getGame&id='+response[i].GAME_ID+'"><img src="'+response[i].SCREENSHOT_URL+'"></a>');
     }
 }

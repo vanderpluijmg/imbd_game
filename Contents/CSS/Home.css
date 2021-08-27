@@ -16,7 +16,17 @@ body {
     position : relative;
     left: 2vw;
 }
+.discorverGames {
+    position: relative;
+    top:21vh;
+    left : 45vw;
+}
 
+.screenshotsDisplay{
+    position:relative;
+    top:26vh;
+    left:21.5vw;
+}
 .underC {
     position :relative;
     top:3vh;
@@ -35,7 +45,10 @@ body {
     bottom: -10px;
     transform: translateX(-50%);
 }
-
+.titleScreenshots{
+    position:relative;
+    top:25vh;
+}
 /** Courselle */
 .wrapperCarousel {
     width: 75vw;

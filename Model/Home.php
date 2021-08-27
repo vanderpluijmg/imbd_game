@@ -10,6 +10,14 @@ class Home extends Model {
 FROM GAMES LIMIT 8;";
         return $this->executeRequest($sql);
     }
+    function getAllSC(){
+        $sql = "SELECT GAMES.GAME_ID, SCREENSHOTS.SCREENSHOT_URL
+FROM GAMES
+JOIN SCREENSHOTS ON GAMES.GAME_ID= SCREENSHOTS.GAME_ID
+ORDER BY RAND()
+LIMIT 9;";
+        return $this->executeRequest($sql);
+    }
 
     /**
      * Sql queries for top row of default gallery games.

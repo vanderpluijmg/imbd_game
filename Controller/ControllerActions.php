@@ -31,7 +31,7 @@ function search(){
     $sqlQueries = new Home();
     if (isset($_GET['query']) && $_GET['query']!= null) {
         $result = $sqlQueries->search($_GET['query']);
-        echo json_encode($result);
+        echo json_encode($result, JSON_PRETTY_PRINT);
     } else {
         echo json_encode(null);
     }
@@ -49,6 +49,12 @@ function filter(){
         echo json_encode(null);
     }
 }
+function screenshots(){
+    $sqlQueries = new Home();
+    $result = $sqlQueries->getAllSC();
+    echo json_encode($result);
+}
+
 
 /**
  * Gets error page

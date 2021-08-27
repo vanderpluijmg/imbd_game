@@ -32,7 +32,7 @@
     </div>
 </div>
 <div class="underC">
-<p class="title titleGallery">Discover new games</p>
+<p class="title titleGallery">Discover new games by genre</p>
 <div class="container select">
     <div class="row">
         <div class="col">
@@ -83,6 +83,17 @@
 
 </div>
 </div>
+</div>
+<p class="title titleScreenshots">Discover new games randomly</p>
+
+<button class="discorverGames" onclick="displaySC()">Click me to find random games</button>
+<div class="container-fluid screenshotsDisplay">
+    <div id="rowOneScreen" class="row myrow">
+
+    </div>
+    <div id="rowTwoScreen" class="row  myrow">
+
+    </div>
 </div>
 <?php $content = ob_get_clean(); ?>
 <?php require "Template.php"; ?>
